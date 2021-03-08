@@ -60,18 +60,18 @@ class ProductAdapter : BaseAdapter {
 
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        var pelicula = movies[position]
+        var product = movies[position]
         var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         var vista = inflator.inflate(R.layout.product, null)
-        vista.iv_pelicula.setImageResource(pelicula.image)
-        vista.tv_pelicula.setText(pelicula.title)
+        vista.iv_product.setImageResource(product.image)
+        vista.tv_product.setText(product.title)
 
-        vista.iv_pelicula.setOnClickListener() {
+        vista.iv_product.setOnClickListener() {
             var intent = Intent(context, ProductDetail::class.java)
-            intent.putExtra("title", pelicula.title)
-            intent.putExtra("image", pelicula.image)
-            intent.putExtra("header", pelicula.header)
-            intent.putExtra("sinopsis", pelicula.sinopsis)
+            intent.putExtra("title", product.title)
+            intent.putExtra("image", product.image)
+            intent.putExtra("header", product.header)
+            intent.putExtra("sinopsis", product.sinopsis)
             context!!.startActivity(intent)
         }
 

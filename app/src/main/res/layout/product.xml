@@ -18,11 +18,16 @@
             android:src="@drawable/bones" />
 
         <TextView
+            android:id="@+id/tv_pelicula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
             android:text="BONES"
-            android:textSize="15sp"
-            android:gravity="center"/>
+            android:textColor="@color/yellow"
+            android:textSize="20sp"/>
 
     </LinearLayout>
 

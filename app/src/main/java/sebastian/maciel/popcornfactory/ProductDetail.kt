@@ -3,12 +3,12 @@ package sebastian.maciel.popcornfactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 // Esta importación ayuda a llamar directamente los botones
-import kotlinx.android.synthetic.main.activity_product_details.*
+import kotlinx.android.synthetic.main.activity_movie_detail.*
 
 class ProductDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_product_details)
+        setContentView(R.layout.activity_movie_detail)
 
         val bundle = intent.extras
 

@@ -34,7 +34,7 @@ class ProductDetail : AppCompatActivity() {
             buy_tickets.setOnClickListener(){
                 val intent: Intent = Intent (this, SeatSelection::class.java)
 
-                intent.putExtra("movie", id)
+                intent.putExtra("id", id)
                 intent.putExtra("name", title)
 
                 this.startActivity(intent)

@@ -69,7 +69,7 @@ class SeatSelection : AppCompatActivity() {
             if (checkedId > -1) {
                 row1.clearCheck()
                 row2.clearCheck()
-                row4.clearCheck()
+                row3.clearCheck()
 
                 row4.check(checkedId)
             }

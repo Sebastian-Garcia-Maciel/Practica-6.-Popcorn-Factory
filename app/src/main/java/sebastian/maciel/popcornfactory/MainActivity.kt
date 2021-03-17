@@ -63,6 +63,9 @@ class ProductAdapter : BaseAdapter {
             intent.putExtra("image", product.image)
             intent.putExtra("header", product.header)
             intent.putExtra("sinopsis", product.sinopsis)
+            intent.putExtra("numberSeats", 20 - product.seats.size)
+            intent.putExtra("pos", position)
+
             context!!.startActivity(intent)
         }
 

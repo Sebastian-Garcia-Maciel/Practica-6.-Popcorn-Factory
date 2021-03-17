@@ -6,5 +6,11 @@
     <dimen name="descText">15sp</dimen>
     <dimen name="buttonText">20sp</dimen>
     <dimen name="paddingButton">25sp</dimen>
+    <dimen name="marginTopRadioGroup">30dp</dimen>
+    <dimen name="horizontalPaddingRadioGroup">10dp</dimen>
+    <dimen name="radioButton">60dp</dimen>
+    <dimen name="radioButtonText">20sp</dimen>
+    <dimen name="horizontalMarginRadioButton">3sp</dimen>
+    <dimen name="symbols">50dp</dimen>
 
 </resources>
